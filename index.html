@@ -673,7 +673,7 @@ function scrollToMatch(index) {
             username = prompt("Enter your username:");
         }
 
-        const ws = new WebSocket('wss://9534-203-78-147-0.ngrok-free.app/chat');
+        const ws = new WebSocket('wss://4145-203-78-147-0.ngrok-free.app/chat');
 
         ws.onopen = () => {
             ws.send(username);
